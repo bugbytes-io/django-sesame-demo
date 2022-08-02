@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>User Profile: {{ user.username}}'s page.</p>
+
+<a href="{% url 'index' %}">Homepage</a>
+
+{% endblock %}
